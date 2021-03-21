@@ -1,0 +1,5 @@
+.BookRow-list li {
+    display: inline-flex;
+    padding: 30px;
+}
+
