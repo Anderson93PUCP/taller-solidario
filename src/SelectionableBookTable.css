@@ -57,6 +57,7 @@ h1 {
 #bookrow-time {
     color: gray;
     font-size: 18px;
+    font-weight: bold;
     vertical-align: 30px;
 }
 
@@ -65,8 +66,8 @@ h1 {
 }
 
   
-  #button-reserve button:hover {
-    background-color: #008CBA;
+#button-reserve button:hover {
+    background-color: #03A4EC;
     color: white;
   }
 
@@ -74,7 +75,7 @@ h1 {
     font-family: cursive;
     background-color: white; 
     color: black; 
-    border: 2px solid #008CBA;
+    border: 2px solid #03A4EC;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -84,4 +85,6 @@ h1 {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+  
+  
 
