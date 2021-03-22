@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import SelectionableBookTable from './components/SelectionableBookTable';
+//import App from './App';
+import MainPage from './components/MainPage';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <SelectionableBookTable />
-  </React.StrictMode>,
+  <MainPage />,
   document.getElementById('root')
 );
 

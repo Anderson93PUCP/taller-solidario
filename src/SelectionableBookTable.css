@@ -1,0 +1,87 @@
+div {
+    font-family: cursive;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+/*
+#main-page {
+    
+    Full height --comentar
+    height: 100%; 
+
+    Center and scale the image nicely --comentar
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#page-body {
+    max-width: 850px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+
+.BookRow-list li {
+    display: inline-flex;
+    padding: 40px;
+}
+
+.ReservationTable {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ReservationTable h2{
+    padding-bottom: 30px;
+}
+
+
+.ClockIcon {
+    height: 80px;
+    width: 80px;
+  }
+
+#bookrow-description {
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: 30px;
+    
+}
+
+#bookrow-time {
+    color: gray;
+    font-size: 18px;
+    vertical-align: 30px;
+}
+
+#button-reserve {
+    vertical-align: 30px;
+}
+
+  
+  #button-reserve button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  #button-reserve button {
+    font-family: cursive;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+

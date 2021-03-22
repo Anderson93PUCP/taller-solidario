@@ -4,14 +4,14 @@ import PresentationTitle from './PresentationTitle';
 import ReservationTable from './ReservationsTable';
 
 
-function SelectionableBookTable () {
+function SelectionableBookTable() {
 
     return (
 
-        <div className="SelectionableBookTable"> 
+        <div id="page-body" >
             <PresentationTitle />
             <ReservationTable />
-        
+
         </div>
     );
 
