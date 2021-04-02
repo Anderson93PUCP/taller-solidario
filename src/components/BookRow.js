@@ -1,6 +1,8 @@
 import React from 'react';
 import '../SelectionableBookTable.css';
 import clock from '../assets/clock.png';
+import { Link } from 'react-router-dom';
+import ColoredLine from './ColoredLine';
 
 
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,12 +16,18 @@ class BookRow extends React.Component {
         return (
 
             <ul className="BookRow-list">
-                <li> 
+                <ColoredLine color='gray'/>
+                <li>
                     <img className="ClockIcon" src={clock} alt="clock icon"></img>
                 </li>
                 <li id="bookrow-description"> Espacio libre de {this.props.time} hora(s)</li>
                 <li id="bookrow-time"> {this.props.time} h</li>
-                <li id="button-reserve"> <button> Reservar </button></li>
+                <li id="button-reserve">
+                    <Link to={`/reservation/${this.props.time}`} >
+                        <button > Reservar
+                        </button>
+                    </Link>
+                </li>
             </ul>
         );
     }

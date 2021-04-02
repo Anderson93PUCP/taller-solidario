@@ -7,7 +7,7 @@ function MainPage() {
 
     return (
 
-        <div id="main-page" style={{background: `url(${background})`, backgroundSize: 'cover', height: '1100px'}}>
+        <div id="main-page">
             <SelectionableBookTable />
         </div>
     );
