@@ -21,10 +21,9 @@ class BookRow extends React.Component {
                     <img className="ClockIcon" src={clock} alt="clock icon"></img>
                 </li>
                 <li id="bookrow-description"> Espacio libre de {this.props.time} hora(s)</li>
-                <li id="bookrow-time"> {this.props.time} h</li>
-                <li id="button-reserve">
+                <li >
                     <Link to={`/reservation/${this.props.time}`} >
-                        <button > Reservar
+                        <button id="button-reserve"> Reservar
                         </button>
                     </Link>
                 </li>
